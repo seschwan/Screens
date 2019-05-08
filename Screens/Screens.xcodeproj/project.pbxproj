@@ -12,6 +12,10 @@
 		B376ED3322826DF400879008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B376ED3122826DF400879008 /* Main.storyboard */; };
 		B376ED3522826DF500879008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B376ED3422826DF500879008 /* Assets.xcassets */; };
 		B376ED3822826DF500879008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B376ED3622826DF500879008 /* LaunchScreen.storyboard */; };
+		B376ED4022827ACD00879008 /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376ED3F22827ACD00879008 /* NumberedViewController.swift */; };
+		B376ED422282812D00879008 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376ED412282812D00879008 /* RedViewController.swift */; };
+		B376ED45228284B800879008 /* Simple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B376ED43228284B800879008 /* Simple.storyboard */; };
+		B376ED47228284E100879008 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B376ED46228284E100879008 /* History.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		B376ED3422826DF500879008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B376ED3722826DF500879008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B376ED3922826DF500879008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B376ED3F22827ACD00879008 /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
+		B376ED412282812D00879008 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		B376ED44228284B800879008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Screens/Base.lproj/Simple.storyboard; sourceTree = "<group>"; };
+		B376ED46228284E100879008 /* History.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,8 @@
 		B376ED2122826DF400879008 = {
 			isa = PBXGroup;
 			children = (
+				B376ED46228284E100879008 /* History.storyboard */,
+				B376ED43228284B800879008 /* Simple.storyboard */,
 				B376ED2C22826DF400879008 /* Screens */,
 				B376ED2B22826DF400879008 /* Products */,
 			);
@@ -57,6 +67,8 @@
 				B376ED2D22826DF400879008 /* AppDelegate.swift */,
 				B376ED2F22826DF400879008 /* ViewController.swift */,
 				B376ED3122826DF400879008 /* Main.storyboard */,
+				B376ED3F22827ACD00879008 /* NumberedViewController.swift */,
+				B376ED412282812D00879008 /* RedViewController.swift */,
 				B376ED3422826DF500879008 /* Assets.xcassets */,
 				B376ED3622826DF500879008 /* LaunchScreen.storyboard */,
 				B376ED3922826DF500879008 /* Info.plist */,
@@ -124,6 +136,8 @@
 			files = (
 				B376ED3822826DF500879008 /* LaunchScreen.storyboard in Resources */,
 				B376ED3522826DF500879008 /* Assets.xcassets in Resources */,
+				B376ED45228284B800879008 /* Simple.storyboard in Resources */,
+				B376ED47228284E100879008 /* History.storyboard in Resources */,
 				B376ED3322826DF400879008 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B376ED422282812D00879008 /* RedViewController.swift in Sources */,
 				B376ED3022826DF400879008 /* ViewController.swift in Sources */,
+				B376ED4022827ACD00879008 /* NumberedViewController.swift in Sources */,
 				B376ED2E22826DF400879008 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +173,14 @@
 				B376ED3722826DF500879008 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B376ED43228284B800879008 /* Simple.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B376ED44228284B800879008 /* Base */,
+			);
+			name = Simple.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
